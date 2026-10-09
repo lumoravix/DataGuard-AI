@@ -24,31 +24,6 @@
 - **scikit-learn** — Isolation Forest anomaly detection and median imputation
 - **Pytest** — automated tests
 
-## Architecture
-
-```mermaid
-flowchart TD
-    U[CSV upload] --> L[csv_loader.py]
-    L --> D[(Pandas DataFrame)]
-    D --> P[profiler.py]
-    D --> V[validator.py]
-    D --> A[anomaly_detector.py]
-    P --> UI[Streamlit dashboard]
-    V --> Q[quality_score.py]
-    D --> C[cleaner.py]
-    V --> R[report_generator.py]
-    Q --> UI
-    A --> UI
-    C --> UI
-    P --> R
-    Q --> R
-    A --> R
-    C --> R
-    R --> UI
-```
-
-The interface is served through `app.py` and the presentation layer in `dashboard.py`. Processing modules under `src/` operate on Pandas DataFrames; cleaning creates a separate copy rather than changing the uploaded data.
-
 ## Installation and Local Run (Windows)
 
 Prerequisite: Python 3.10+ available as `py` in PowerShell.
