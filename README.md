@@ -93,13 +93,13 @@ Test outcomes depend on your local environment. Run the command above to obtain 
 
 ## Live Demo
 
-**Coming Soon**
+🚀 **Try DataGuard AI:** [Launch Live Application](https://dataguard-ai-hz3qqpua3kqzcpkndzwgvw.streamlit.app/)
 
 ## Planned Improvements
 
 The following are planned ideas, not current functionality:
 
-- Deployment and hosted demo environment
+
 - Additional validation-rule management and saved rule sets
 - More anomaly-detection model options and model-comparison tooling
 - Export formats beyond the current cleaned CSV and HTML report
