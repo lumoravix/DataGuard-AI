@@ -1,0 +1,10 @@
+[server]
+# Matches src.csv_loader.DEFAULT_MAX_FILE_SIZE_MB.
+maxUploadSize = 20
+
+[theme]
+base = "dark"
+primaryColor = "#8b7cf6"
+backgroundColor = "#090f22"
+secondaryBackgroundColor = "#101a35"
+textColor = "#e5e7eb"
